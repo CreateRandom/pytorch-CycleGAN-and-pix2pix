@@ -65,3 +65,4 @@ def create_model(opt):
     instance = model(opt)
     print("model [%s] was created" % type(instance).__name__)
     return instance
+
